@@ -5,7 +5,7 @@ public class App {
     public static void main(String[] args) throws Exception {
         Dictionary dictionary = new Dictionary();
 
-        System.out.println("¡Bienvenido al Diccionario de Duolingo!");
+        System.out.println("Bienvenido");
 
         boolean salir = false;
         while (!salir) {
