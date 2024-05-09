@@ -1,9 +1,9 @@
-import com.duolingo.entities.Diccionario;
+import com.duolingo.entities.Dictionary;
 import com.duolingo.utilities.InputUtils;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        Diccionario diccionario = new Diccionario();
+        Dictionary dictionary = new Dictionary();
 
         System.out.println("¡Bienvenido al Diccionario de Duolingo!");
 
