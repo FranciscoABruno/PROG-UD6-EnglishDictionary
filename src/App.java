@@ -16,9 +16,9 @@ public class App {
             System.out.println("4. Mostrar iniciales disponibles");
             System.out.println("5. Ver palabras por inicial");
             System.out.println("6. Cerrar programa");
-            int opcion = InputUtils.readInt("Selecciona una opción: \n");
+            int option = InputUtils.readInt("Selecciona una opción: \n");
 
-            switch (opcion) {
+            switch (option) {
                 case 1:
                     
                     break;
