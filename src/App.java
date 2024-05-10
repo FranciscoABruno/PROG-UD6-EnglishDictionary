@@ -5,8 +5,6 @@ public class App {
     public static void main(String[] args) throws Exception {
         Dictionary dictionary = new Dictionary();
 
-        System.out.println("Bienvenido");
-
         boolean salir = false;
         while (!salir) {
             System.out.println("\nMenú: ");
