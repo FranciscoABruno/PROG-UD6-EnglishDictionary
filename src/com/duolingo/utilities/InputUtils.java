@@ -14,4 +14,9 @@ public class InputUtils {
         }
         return scanner.nextInt();
     }
+
+    public static String readString(String string) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'readString'");
+    }
 }

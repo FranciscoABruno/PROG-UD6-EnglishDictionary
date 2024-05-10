@@ -20,8 +20,10 @@ public class App {
 
             switch (option) {
                 case 1:
-                    
-                    break;
+                String newWord = InputUtils.readString("Ingrese la palabra a añadir: ");
+                dictionary.addWord(newWord);
+                System.out.println("Palabra agregada correctamente");
+                break;
             
                 default:
                     break;
