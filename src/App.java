@@ -5,8 +5,8 @@ public class App {
     public static void main(String[] args) throws Exception {
         Dictionary dictionary = new Dictionary();
 
-        boolean salir = false;
-        while (!salir) {
+        boolean exit = false;
+        while (!exit) {
             System.out.println("\nMenú: ");
             System.out.println("1. Añadir palabra");
             System.out.println("2. Eliminar palabra");
@@ -45,7 +45,12 @@ public class App {
                     char initial = InputUtils.readChar("Ingresa la inicial para ver palabras: ");
                     System.out.println("Palabras con la inicial '" + initial + "': " + dictionary.getWordsByInitial(initial));
                     break;
+                    case 6:
+                    exit = true;
+                    System.out.println("Programa cerrado");
+                    break;
                 default:
+                System.out.println("Opción no válida. Inténtelo de nuevo.");
                     break;
             }
 
