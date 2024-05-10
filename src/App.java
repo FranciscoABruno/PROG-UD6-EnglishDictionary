@@ -24,7 +24,14 @@ public class App {
                 dictionary.addWord(newWord);
                 System.out.println("Palabra agregada correctamente");
                 break;
-            
+                case 2:
+                String wordToRemove = InputUtils.readString("Ingrese la palabra a eliminar: ");
+                if (dictionary.removeWord(wordToRemove)) {
+                    System.out.println("Palabra eliminada correctamente");
+                } else {
+                    System.out.println("La palabra no estaba almacenada en el diccionario.");
+                }
+                break;
                 default:
                     break;
             }
