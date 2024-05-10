@@ -20,16 +20,24 @@ public class App {
 
             switch (option) {
                 case 1:
-                String newWord = InputUtils.readString("Ingrese la palabra a añadir: ");
+                String newWord = InputUtils.readString("Ingresa la palabra a añadir: ");
                 dictionary.addWord(newWord);
                 System.out.println("Palabra agregada correctamente");
                 break;
                 case 2:
-                String wordToRemove = InputUtils.readString("Ingrese la palabra a eliminar: ");
+                String wordToRemove = InputUtils.readString("Ingresa la palabra a eliminar: ");
                 if (dictionary.removeWord(wordToRemove)) {
                     System.out.println("Palabra eliminada correctamente");
                 } else {
                     System.out.println("La palabra no estaba almacenada en el diccionario.");
+                }
+                break;
+                case 3:
+                String wordToCheck = InputUtils.readString("Ingresa la palabra a buscar: ");
+                if (dictionary.hasWord(wordToCheck)) {
+                    System.out.println("Palabra en el diccionario");
+                } else {
+                    System.out.println("La palabra no está en el diccionario");
                 }
                 break;
                 default:
