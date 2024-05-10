@@ -40,6 +40,9 @@ public class App {
                     System.out.println("La palabra no está en el diccionario");
                 }
                 break;
+                case 4:
+                    System.out.println("iniciales disponibles: " + dictionary.getAvailableInitials());
+                    break;
                 default:
                     break;
             }
