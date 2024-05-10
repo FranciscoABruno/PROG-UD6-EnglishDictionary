@@ -18,6 +18,15 @@ public class App {
             System.out.println("6. Cerrar programa");
             int opcion = InputUtils.leerEntero("Seleccione una opción: ");
 
+            switch (opcion) {
+                case 1:
+                    
+                    break;
+            
+                default:
+                    break;
+            }
+
         }
     }
 }
