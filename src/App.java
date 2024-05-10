@@ -42,6 +42,10 @@ public class App {
                 break;
                 case 4:
                     System.out.println("iniciales disponibles: " + dictionary.getAvailableInitials());
+                break;
+                case 5:
+                    char initial = InputUtils.readChar("Ingresa la inicial para ver palabras: ");
+                    System.out.println("Palabras con la inicial '" + initial + "': " + dictionary.getWordsByInitial(initial));
                     break;
                 default:
                     break;

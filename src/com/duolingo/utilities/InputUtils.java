@@ -19,4 +19,9 @@ public class InputUtils {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'readString'");
     }
+
+    public static char readChar(String string) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'readChar'");
+    }
 }
