@@ -15,13 +15,13 @@ public class InputUtils {
         return scanner.nextInt();
     }
 
-    public static String readString(String string) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'readString'");
+    public static String readString(String message) {
+        System.out.print(message);
+        return scanner.nextLine().trim();
     }
 
-    public static char readChar(String string) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'readChar'");
+    public static char readChar(String message) {
+        System.out.print(message);
+        return scanner.next().trim().charAt(0);
     }
 }
